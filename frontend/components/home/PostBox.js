@@ -4,7 +4,7 @@ import { BsCardImage, BsEmojiSmile } from 'react-icons/bs';
 import { RiFileGifLine, RiBarChartHorizontalFill } from 'react-icons/ri';
 import { IoMdCalendar } from 'react-icons/io';
 import { MdOutlineLocationOn } from 'react-icons/md';
-// import { client } from '../../lib/client'
+// import { client } from '../../libraries/client'
 
 const style = {
   wrapper: `px-4 flex flex-row border-b border-[#38444d] pb-4`,
@@ -32,7 +32,7 @@ const PostBox = () => {
     <div className={style.wrapper}>
       <div className={style.postBoxLeft}>
         <img
-          src="../assets/groot.jpg"
+          src="https://web.facebook.com/photo/?fbid=3812244848814698&set=a.142125299160023"
           alt="profile image"
           className={style.profileImage}
         />
